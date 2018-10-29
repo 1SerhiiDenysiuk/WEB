@@ -1,0 +1,24 @@
+
+.news-item {
+  animation-name: show-news-item;
+  animation-duration: 3s;
+  outline: 2px solid #000;
+  width: 24%;
+  display:inline-block;
+  margin-bottom: 45px;
+  margin-top: 45px;
+}
+img{
+ max-width: 100%;
+ height: auto;
+}
+
+@keyframes show-news-item {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
