@@ -1,0 +1,29 @@
+CACHE MANIFEST
+
+
+CACHE:
+index.html
+css/main.css
+css/bootstrap.min.css
+PNG/Map.png
+PNG/logo.jpg
+PNG/Navi-team.jpg
+PNG/Image.png
+PNG/error_icon.png
+error.html
+contacts.html
+news.html
+css/news.css
+fans.html
+css/fans.css
+css/contacts.css
+css/admin.css
+
+
+NETWORK:
+news.html 
+fans.html
+
+
+FALLBACK:
+calendar.html /error.html
