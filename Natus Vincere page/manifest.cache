@@ -3,27 +3,32 @@ CACHE MANIFEST
 
 CACHE:
 index.html
-css/main.css
-css/bootstrap.min.css
+CSS/main.css
+CSS/bootstrap.min.css
+JS/jquery.min.js
+JS/popper.min.js
+JS/bootstrap.min.js
+PNG/last_win.png
 PNG/Map.png
 PNG/logo.jpg
 PNG/Navi-team.jpg
 PNG/Image.png
 PNG/error_icon.png
 error.html
-contacts.html
-news.html
-css/news.css
-fans.html
-css/fans.css
-css/contacts.css
-css/admin.css
+Contacts.html
+News.html
+CSS/News.css
+Fans.html
+CSS/Fans.css
+CSS/Contacts.css
+CSS/Admin.css
 
 
 NETWORK:
-news.html 
-fans.html
+News.html 
+Fans.html
 
 
 FALLBACK:
-calendar.html /error.html
+Admin.html /error.html
+Matches.html /error.html
