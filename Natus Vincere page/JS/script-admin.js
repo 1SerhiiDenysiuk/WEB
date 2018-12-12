@@ -10,7 +10,8 @@ $(document).ready(function () {
      $('#add-news').click(function () {
         if ($('#add-image').attr('src') != 'PNG/Image.png') {
             if ($('#label-news').val().trim() != '' && $('#text-news').val().trim() != '') {
-                 images.push("PNG/new_news.jpg");
+                alert('Новина успішно додана');
+                images.push("PNG/new_news.jpg");
                 titleNews.push($('#label-news').val());
                 textNews.push($('#text-news').val());
                 if(!isOnline()){
@@ -22,21 +23,26 @@ $(document).ready(function () {
                 $('#label-news').css('border-width', '1px');
                 $('#text-news').css('border-color', '#A9A9A9');
                 $('#text-news').css('border-width', '1px');
-                alert('Новина успішно додана');
+                
                 $('#text-news').val('');
                 $('#label-news').val('');
-                $('#add-image').attr("src", "img/icon.png");
+                $('#add-image').attr("src", "PNG/Image.png");
 }
 }
     });
 });
+ $('input[type=file]').change(function (event) {
+        var tmppath = URL.createObjectURL(event.target.files[0]);
+         $("#add-image").attr('src', tmppath);
+     });
  function isOnline() {
     return window.navigator.onLine;
 }
  window.addEventListener("online", function(){
     sendData();
     this.localStorage.removeItem("images");
-    this.localStorage.removeItem("textNews");
+    this.localStorage.removeItem("titleNews");
     this.localStorage.removeItem("textNews");
 });
  function sendData() {
+ }
