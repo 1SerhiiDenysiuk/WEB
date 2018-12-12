@@ -30,7 +30,6 @@ li ul {
 } 
 li a {
   display: block;
-  transition: color 2s;
   padding: 5px;
   text-decoration: none;
   color: #666;
@@ -73,21 +72,10 @@ footer{
     height: 50px;
     padding: 0;
     width: auto;
-    animation: logo;
-    animation-duration: 2s;
 }
 #history {
   width: 60%;
   margin-left: 20%;
   font-size: 20px;
-}
-
-@keyframes logo{
-  from{
-    margin-right: 20%;
-  }
-  to{
-    margin-right: 0%;
-  }
 }
 

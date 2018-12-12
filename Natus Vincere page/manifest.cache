@@ -22,7 +22,9 @@ Fans.html
 CSS/Fans.css
 CSS/Contacts.css
 CSS/Admin.css
-
+JS/script-admin.js
+JS/script-fans.js
+JS/script-news.js
 
 NETWORK:
 News.html 
